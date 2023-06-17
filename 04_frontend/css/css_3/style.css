@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.box{
+width: 200px;
+height: 200px;
+padding: 20px 10px 20px 10px;
+box-sizing: border-box;
+margin: 10px 10px;
+}
+
+.box1{
+background-color: yellow;
+border: 2px solid yellowgreen;
+}
+
+.box2{
+background-color: blue;
+border: 4px dotted aqua;
+}
+
+.box3{
+background-color: red;
+border: 10px dashed orangered;
+}

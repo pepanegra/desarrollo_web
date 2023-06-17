@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+ 
+.box{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+.en{
+    background-color: aqua;
+    border: 2px solid blue;
+    position: absolute;
+  
+}
+
+.es{
+    background-color: rgb(255, 0, 157);
+    border: 2px solid blue;
+    position: relative;
+
+}
+
+.eg{
+    background-color: rgb(255, 145, 0);
+    border: 2px solid rgb(0, 255, 13);
+    position: fixed;
+    
+}
