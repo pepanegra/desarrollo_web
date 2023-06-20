@@ -22,17 +22,18 @@ main{
      background-color: white;  
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 400;
-    height: 300px;
-    border-radius: 10px;
+    height: 350px;
+    border-radius: 20px;
     box-shadow: 2px 3px 4px black;
 }
 
 .result{
-    background-color: blue;
-    width: 200px;
-    height: 300px;
-    border-radius: 10px;
+    background-image: linear-gradient(to top,rgb(0, 26, 255),rgb(82, 58, 187));
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
     display: flex;
     justify-content:  space-around;
     flex-direction: column;
@@ -43,17 +44,59 @@ main{
 
 .summary{
     background-color: whitesmoke;
-    width: 200px;
-    height: 300px;
-    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content:space-around;
+     flex-direction: column;
+     align-items:center ;
 }
 
 .resultado{
+    background-image: linear-gradient(to bottom,rgb(0, 26, 255),rgb(55, 0, 255));
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    background-color: darkblue;
-    height: 100px;
-    width: 100px;
+    margin-top: 0px;
+}
+
+.Great{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 300;
+    text-align: center;
+}
+
+.Great h1{
+    margin-bottom: 10px;
+} 
+ 
+.reaction{
+    display: flex;
+}
+ 
+.reaction{
+    background-color: rgb(238, 226, 243);
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-small;
+    
+}
+.reaction p{
+    color: rgb(223, 16, 85);
+}
+ 
+.habilidad-izquierda{
+    display: flex;
+    justify-content: left;
+    
 }
