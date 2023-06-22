@@ -74,13 +74,14 @@ main{
 
 .Great h1{
     margin-bottom: 10px;
+    font-weight: 500;
 } 
  
-.reaction{
+.habilidad{
     display: flex;
 }
  
-.reaction{
+.habilidad{
     background-color: rgb(238, 226, 243);
     border-radius: 10px;
     width: 200px;
@@ -89,15 +90,60 @@ main{
     justify-content: space-between;
     align-items: center;
     font-size: x-small; 
-    gap: 50px;
+    gap: px;
     
 }
-.reaction p{
+.habilidad p{
     color: rgb(223, 16, 85);
 }
  
 .habilidad-izquierda{
     display: flex;
     justify-content: left;
+    gap: 10px;
     
+} 
+
+.memory{
+    background-color: rgb(245, 245, 221);
 }
+
+.verbal{
+    background-color: rgb(225, 252, 242);
+}
+
+.visual{
+    background-color: rgb(231, 231, 245);
+}
+
+.habilidades{
+    display: flex;
+    
+    flex-direction: column;
+   
+    gap: 15px;
+   
+}
+
+.mi-boton {
+    background-color: #0b1238;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 200px;
+    font-weight: 100;
+    font-size: small;
+  }
+
+  .summari{
+    display: flex;
+    justify-content: left;
+    width: 200px;
+    
+  }
