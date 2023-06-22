@@ -1,149 +1,175 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    border: 0px;
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  border: 0px;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    justify-content: center;
-    background-color:re;
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: re;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    background-color:white; 
-
+main {
+  display: flex;
+  justify-content: center;
+  background-color: white;
 }
 
-.contenedor{
-     background-color: white;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400;
-    height: 350px;
-    border-radius: 20px;
-    box-shadow: 2px 3px 4px black;
+.contenedor {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 4px black;
 }
 
-.result{
-    background-image: linear-gradient(to top,rgb(0, 26, 255),rgb(82, 58, 187));
-    width: 250px;
-    height: 350px;
-    border-radius: 20px;
-    display: flex;
-    justify-content:  space-around;
-    flex-direction: column;
-    align-items: center;
-    color: aliceblue;
-    
+.result {
+  background-image: linear-gradient(to top, rgb(0, 26, 255), rgb(82, 58, 187));
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
 }
 
-.summary{
-    background-color: whitesmoke;
-    width: 250px;
-    height: 350px;
-    border-radius: 20px;
-    display: flex;
-    justify-content:space-around;
-     flex-direction: column;
-     align-items:center ;
+.summary {
+  background-color: whitesmoke;
+  width: 250px;
+  height: 350px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
 }
 
-.resultado{
-    background-image: linear-gradient(to bottom,rgb(0, 26, 255),rgb(55, 0, 255));
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 0px;
+.resultado {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(0, 26, 255),
+    rgb(55, 0, 255)
+  );
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 0px;
 }
 
-.Great{
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: x-small;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: 300;
-    text-align: center;
+.Great {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: x-small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 300;
+  text-align: center;
 }
 
-.Great h1{
-    margin-bottom: 10px;
-    font-weight: 500;
-} 
- 
-.habilidad{
-    display: flex;
-}
- 
-.habilidad{
-    background-color: rgb(238, 226, 243);
-    border-radius: 10px;
-    width: 200px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: x-small; 
-    gap: px;
-    
-}
-.habilidad p{
-    color: rgb(223, 16, 85);
-}
- 
-.habilidad-izquierda{
-    display: flex;
-    justify-content: left;
-    gap: 10px;
-    
-} 
-
-.memory{
-    background-color: rgb(245, 245, 221);
+.Great h1 {
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 
-.verbal{
-    background-color: rgb(225, 252, 242);
+.habilidad {
+  display: flex;
 }
 
-.visual{
-    background-color: rgb(231, 231, 245);
+.habilidad {
+  background-color: rgb(238, 226, 243);
+  border-radius: 10px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-small;
+  gap: px;
+}
+.habilidad p {
+  color: rgb(223, 16, 85);
 }
 
-.habilidades{
-    display: flex;
-    
-    flex-direction: column;
-   
-    gap: 15px;
-   
+.habilidad-izquierda {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+
+.memory {
+  background-color: rgb(245, 245, 221);
+}
+
+.verbal {
+  background-color: rgb(225, 252, 242);
+}
+
+.visual {
+  background-color: rgb(231, 231, 245);
+}
+
+.habilidades {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
 }
 
 .mi-boton {
-    background-color: #0b1238;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 10px;
-    width: 200px;
-    font-weight: 100;
-    font-size: small;
+  background-color: #0b1238;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 200px;
+  font-weight: 100;
+  font-size: small;
+}
+
+.summari {
+  display: flex;
+  justify-content: left;
+  width: 200px;
+}
+
+@media (max-width: 500px) {
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    height: auto;
+  }
+  .summary {
+    width: 100%;
+  }
+  .result {
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
   }
 
-  .summari{
-    display: flex;
-    justify-content: left;
-    width: 200px;
-    
+  .habilidades {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
   }
+
+   .habilidad{
+    width: 80%;
+   }
+}
