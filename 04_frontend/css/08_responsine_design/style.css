@@ -1,0 +1,32 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: white;
+}
+
+/* min-width- desde que el ancho sea... */
+/* max-width- hasta que el ancho sea... */
+
+
+@media screen and (min-width: 600px){
+    body{
+        background-color: cadetblue;
+    }
+    
+    h1{
+        color: black;
+    }
+}
+
+@media (min-width: 800px){
+    h1{
+        display: none;
+    }
+
+    body{
+        background-color: yellow;
+    }
+}
+

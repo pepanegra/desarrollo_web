@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+h1{
+    background-color: red;
+
+}
+
+p{
+    background-color: blue;
+}
