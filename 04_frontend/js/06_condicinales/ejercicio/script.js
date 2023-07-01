@@ -1,27 +1,27 @@
-function tryhard(numero) {
-  if (numero % 3 == 0 && numero % 5 == 0) {
-    console.log("FizzBuzz");
-  } else if (numero % 3 == 0) {
-    console.log("Fizz");
-  } else if (numero % 5 == 0) {
-    console.log("Buzz");
-  } else if (numero % 3 > 0 && numero % 5 > 0) {
-    console.log("El numero que ha ingresado no es multiplo del 3 ni del 5");
-  }
-}
+// function tryhard(numero) {
+//   if (numero % 3 == 0 && numero % 5 == 0) {
+//     console.log("FizzBuzz");
+//   } else if (numero % 3 == 0) {
+//     console.log("Fizz");
+//   } else if (numero % 5 == 0) {
+//     console.log("Buzz");
+//   } else if (numero % 3 > 0 && numero % 5 > 0) {
+//     console.log("El numero que ha ingresado no es multiplo del 3 ni del 5");
+//   }
+// }
 
-tryhard(false);
+// tryhard(false);
 
-function par(Number) {
-  if (Number % 2 == 0) {
-    console.log("El numero es par");
-  } else if (Number % 2 > 0) {
-    console.log("El numero es impar");
-  }
-}
+// function par(Number) {
+//   if (Number % 2 == 0) {
+//     console.log("El numero es par");
+//   } else if (Number % 2 > 0) {
+//     console.log("El numero es impar");
+//   }
+// }
 
-par(8);
-par(57);
+// par(8);
+// par(57);
 
 let w = prompt("Ingrese su peso");
 let h = prompt("Ingresa tu altura");
