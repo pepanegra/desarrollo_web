@@ -27,11 +27,11 @@ let w = prompt("Ingrese su peso");
 let h = prompt("Ingresa tu altura");
 let imt = w / h ** 2;
 if (imt < 18.5) {
-  console.log("Underweight");
+  parseFloat(console.log(imt));
 } else if (imt >= 18.5 && imt < 25) {
-  console.log("Normal");
+  parseFloat(console.log(imt));
 } else if (imt >= 25 && imt < 30) {
-  console.log("Overweight");
+  parseFloat(console.log(imt));
 } else {
-  console.log("Obesity");
+  parseFloat(console.log(imt));
 }

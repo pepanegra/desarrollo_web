@@ -1,0 +1,11 @@
+main {
+  display: flex;
+  justify-content: center;
+  background-color: brown;
+  width: 100%;
+  height: 500px;
+}
+
+#boton {
+  height: 30px;
+}
