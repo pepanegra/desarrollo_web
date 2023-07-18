@@ -6,7 +6,7 @@ class Vehiculo {
   }
 
   obtenerDetalles() {
-    return `el vehiculo ${this.marca},  ${this.modelo}, del año ${this.año}`;
+    return `El vehiculo ${this.marca},  ${this.modelo}, del año ${this.año}`;
   }
 
   apagar() {
@@ -21,7 +21,7 @@ class Automovil extends Vehiculo {
   }
 
   obtenerDetalles() {
-    return `El ${this.marca} ${this.modelo} del año ${this.año} de ${this.puertas} puertas`;
+    return `El ${this.marca} ${this.modelo} del año ${this.año} tiene ${this.puertas} puertas`;
   }
 }
 
@@ -39,3 +39,5 @@ class Motocicleta extends Vehiculo {
 }
 
 let moto = new Motocicleta("Yamaha", "MT-09", 2015, 900);
+
+console.log(kia.obtenerDetalles());

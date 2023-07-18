@@ -75,14 +75,27 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
-  switch (key) {
-    case value:
+  let mostrar = "";
+  switch (color) {
+    case "This is blue":
+      mostrar = "blue";
       break;
-
+    case "This is red":
+      mostrar = "red";
+      break;
+    case "This is green":
+      mostrar = "green";
+      break;
+    case "This is orange":
+      mostrar = "orange";
+      break;
     default:
-      break;
+      mostrar = "Color not found";
   }
+
+  return mostrar;
 }
+console.log(colors("This is red"));
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
