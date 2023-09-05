@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.personajes {
+  gap: 50px;
+  margin: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+
+.personaje {
+  display: flex;
+  flex-direction: row;
+  background-color: dimgrey;
+  border-radius: 10px;
+  height: 80%;
+  width: 200px;
+  transition: width 0.5s ease-in-out;
+}
+
+.personaje:hover {
+  width: 500px;
+}
+
+img {
+  width: auto;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.divi {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px 0px 40px;
+  gap: 30px;
+}
+
+.divimg {
+  border-radius: 10px;
+}
+
+.divname {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.divgenero {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.divorigen {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}

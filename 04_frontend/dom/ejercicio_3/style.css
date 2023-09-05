@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: lightskyblue;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 2px 2px 30px 2px lightskyblue;
+  background-color: lightskyblue;
+}
+
+h2 {
+  color: white;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+}
+
+#btn {
+  width: 200px;
+  height: 25px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+  color: lightskyblue;
+}
+
+li {
+  color: white;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+      integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      class="hamburger"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Menu hamburguesa</title>
+  </head>
+  <body>
+    <header>
+      <div>Portafolio</div>
+    </header>
+    <aside class="menu-lateral">
+      <nav>
+        <a href="#section1">Acerca de mi</a>
+        <a href="#section2">Reloj digital</a>
+        <a href="#section3">Calculadora</a>
+        <a href="#section4">Contactame</a>
+      </nav>
+    </aside>
+    <main>
+      <section id="section1">
+        <h1>Jonathan Angulo</h1>
+        
+      </section>
+      <section id="section2">
+        <h2>Reloj digital</h2>
+        <div class="hora"></div>
+        <button class="btn-activar b">Activar reloj</button>
+        <button class="btn-pausar b">Pausar reloj</button>
+      </section>
+      <section id="section3">
+        <h2>calculadora</h2>
+      <div class="calculadora">
+
+         <div class="pantalla">0</div>
+
+         <button class="btn-calculadora" id="c">C</button>
+         <button class="btn-calculadora" id="borrar">←</button>
+         <button class="btn-calculadora">/</button>
+         <button class="btn-calculadora">*</button>
+         <button class="btn-calculadora">7</button>
+         <button class="btn-calculadora">8</button>
+         <button class="btn-calculadora">9</button>
+         <button class="btn-calculadora">-</button>
+         <button class="btn-calculadora">4</button>
+         <button class="btn-calculadora">5</button>
+         <button class="btn-calculadora">6</button>
+         <button class="btn-calculadora">+</button>
+         <button class="btn-calculadora">1</button>
+         <button class="btn-calculadora">2</button>
+         <button class="btn-calculadora">3</button>
+         <button class="btn-calculadora" id="igual">=</button> 
+         <button class="btn-calculadora" id="cero">0</button>
+         <button class="btn-calculadora">.</button>
+
+      </div>
+      <section id="section4">
+        <h1>Contactame</h1>
+        <form action="https://formsubmit.co/jonathangabrielangulo95@gmail.com" method="POST">
+          <input type="text" name="name" required>
+          <input type="email" name="email" required>
+          <button type="submit">Send</button>
+     </form>
+      </section>
+    </main>
+    <footer>
+      <button class="btn-contenedor hamburger hamburger--elastic" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+      <div>Derechos reservados by Jonathan Angulo</div>
+    </footer>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
